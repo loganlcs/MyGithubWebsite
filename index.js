@@ -1,11 +1,5 @@
-class index{
-}
-render(){
-return(
-  <Row>
-  <h1> Hello </h1>
-  </Row>
-  );
-}
+let d = new Date();
+document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+
 
 
